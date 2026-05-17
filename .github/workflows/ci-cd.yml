@@ -28,7 +28,7 @@ jobs:
 
   build:
     runs-on: ubuntu-latest
-    needs: test  # Зависимость от job "test", не будет выполнена, если "test" не прошел
+    needs: tests  # Зависимость от job "tests", не будет выполнена, если "tests" не прошел
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
