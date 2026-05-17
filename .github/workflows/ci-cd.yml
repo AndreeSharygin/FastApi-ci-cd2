@@ -24,7 +24,7 @@ jobs:
 
       - name: Run tests
         env:
-          PYTHONPATH: ./app  # Установка PYTHONPATH
+          PYTHONPATH: .  # Установка PYTHONPATH
         run: |
           pytest
 
